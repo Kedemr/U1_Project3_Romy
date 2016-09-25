@@ -71,14 +71,5 @@ void draw()
       circleX[i] = circleX[i] + 10 ;
       circleY[i] = circleY[i] + 10 ;
     }
-    /*  if (dist(mouseX, mouseY, circleX1[i], circleY1[i]) <circleR[i]);
-     {
-     circleX1[i] = 0;
-     circleY1[i] = 0;
-     circleR[i] = 0;
-     ellipse(circleX1[i], circleY1[i], circleR[i], circleR[i]);
-     circleX1[i] = circleX[i] + 10;
-     circleY1[i] = circleY[i] + 10;
-     }*/
   }
 }
